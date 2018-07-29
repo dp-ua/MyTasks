@@ -1,4 +1,11 @@
 class CommandLineParse {
+//Класс для парсинга командной строки на наличие нужных команд и аргументов
+//пример работы common-cli библиотеки
+//подключение:
+/*    // https://mvnrepository.com/artifact/commons-cli/commons-cli
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
+*/
+
     TypeOfCommand command
     def enterParams
 
